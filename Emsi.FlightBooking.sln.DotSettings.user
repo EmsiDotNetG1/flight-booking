@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=526aa26b_002D14bd_002D4c1a_002Dbe26_002D6c0cc59d9304/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestAdd" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::35E66559-2E31-4EDB-93DF-82BF5A9FE8CC::net10.0::Emsi.FlightBooking.Tests.FlightsServiceTests.TestAdd&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::35E66559-2E31-4EDB-93DF-82BF5A9FE8CC::net10.0::Emsi.FlightBooking.Tests.FlightsServiceTests.SearchFlightsAsync_SimpleDeparture_ReturnsFlights&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::35E66559-2E31-4EDB-93DF-82BF5A9FE8CC::net10.0::Emsi.FlightBooking.Tests.FlightsServiceTests.SearchFlightsAsync_RoundTrip_ReturnsFlights&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
