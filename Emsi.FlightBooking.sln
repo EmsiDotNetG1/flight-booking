@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F0A14A3A-AE4B-422F-83BB-E05DA04DD00B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CF8FA67B-5A50-449A-A873-5F355FD00E58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{244DA94C-869C-43A1-8A97-B4B989E89C51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emsi.FlightBooking.Models", "Emsi.FlightBooking.Models\Emsi.FlightBooking.Models.csproj", "{57773E45-911F-427F-B905-4EAE127FB8F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emsi.FlightBooking.Infrastructure.Abstraction", "Emsi.FlightBooking.Infrastructure.Abstraction\Emsi.FlightBooking.Infrastructure.Abstraction.csproj", "{2FE37043-A4F6-4F57-BFDB-6A8B050AFA54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emsi.FlightBooking.Infrastructure.DataBase", "Emsi.FlightBooking.Infrastructure.DataBase\Emsi.FlightBooking.Infrastructure.DataBase.csproj", "{9E91C29A-D470-4521-8FE7-5FD03732C712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emsi.FlightBooking.Abstractions", "Emsi.FlightBooking.Abstractions\Emsi.FlightBooking.Abstractions.csproj", "{86663233-2A4E-43D8-A1A2-DF59A437C80F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emsi.FlightBooking.Infrastructure.DAO", "Emsi.FlightBooking.Infrastructure.DAO\Emsi.FlightBooking.Infrastructure.DAO.csproj", "{A637172B-D9FC-4D39-8B43-8CCFF2296C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emsi.FlightBooking", "Emsi.FlightBooking\Emsi.FlightBooking.csproj", "{7C54703D-52AF-460B-BF40-F7DA7354941E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FE37043-A4F6-4F57-BFDB-6A8B050AFA54} = {F0A14A3A-AE4B-422F-83BB-E05DA04DD00B}
+		{9E91C29A-D470-4521-8FE7-5FD03732C712} = {F0A14A3A-AE4B-422F-83BB-E05DA04DD00B}
+		{86663233-2A4E-43D8-A1A2-DF59A437C80F} = {CF8FA67B-5A50-449A-A873-5F355FD00E58}
+		{57773E45-911F-427F-B905-4EAE127FB8F7} = {CF8FA67B-5A50-449A-A873-5F355FD00E58}
+		{A637172B-D9FC-4D39-8B43-8CCFF2296C30} = {F0A14A3A-AE4B-422F-83BB-E05DA04DD00B}
+		{7C54703D-52AF-460B-BF40-F7DA7354941E} = {CF8FA67B-5A50-449A-A873-5F355FD00E58}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57773E45-911F-427F-B905-4EAE127FB8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57773E45-911F-427F-B905-4EAE127FB8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57773E45-911F-427F-B905-4EAE127FB8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57773E45-911F-427F-B905-4EAE127FB8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE37043-A4F6-4F57-BFDB-6A8B050AFA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE37043-A4F6-4F57-BFDB-6A8B050AFA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE37043-A4F6-4F57-BFDB-6A8B050AFA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE37043-A4F6-4F57-BFDB-6A8B050AFA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E91C29A-D470-4521-8FE7-5FD03732C712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E91C29A-D470-4521-8FE7-5FD03732C712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E91C29A-D470-4521-8FE7-5FD03732C712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E91C29A-D470-4521-8FE7-5FD03732C712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86663233-2A4E-43D8-A1A2-DF59A437C80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86663233-2A4E-43D8-A1A2-DF59A437C80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86663233-2A4E-43D8-A1A2-DF59A437C80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86663233-2A4E-43D8-A1A2-DF59A437C80F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A637172B-D9FC-4D39-8B43-8CCFF2296C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A637172B-D9FC-4D39-8B43-8CCFF2296C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A637172B-D9FC-4D39-8B43-8CCFF2296C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A637172B-D9FC-4D39-8B43-8CCFF2296C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C54703D-52AF-460B-BF40-F7DA7354941E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C54703D-52AF-460B-BF40-F7DA7354941E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C54703D-52AF-460B-BF40-F7DA7354941E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C54703D-52AF-460B-BF40-F7DA7354941E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
